@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=lon\ lat
+comment0.target=LatLong(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ LatLong\r\n\ \r\n\ @param\ lon\ New\ value\ for\ the\ position's\ longitude.\r\n\ @param\ lat\ New\ value\ for\ the\ position's\ latitude.\r\n
+comment1.params=position
+comment1.target=LatLong(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LatLong\r\n\ \r\n\ @param\ position\ New\ value\ for\ the\ position.\ \r\n\ The\ format\ must\ be\ "\#\#\#\#E\ \#\#\#\#N"\ (\#\ is\ a\ decimal\ number)\ i.e.\ in\ the\ form\ 1234E\ 5678N.\r\n
+comment2.params=lat
+comment2.target=void\ setLat(int)
+comment2.text=\r\n\ A\ set\ method\ -\ Latitude\ of\ the\ position.\r\n\ \r\n\ @param\ lat\ New\ value\ for\ this\ position's\ latitude.\r\n
+comment3.params=lon
+comment3.target=void\ setLon(int)
+comment3.text=\r\n\ A\ set\ method\ -\ Longitude\ of\ the\ position.\r\n\ \r\n\ @param\ lon\ New\ value\ for\ the\ position's\ longitude.\r\n
+comment4.params=
+comment4.target=double\ getLat()
+comment4.text=\r\n\ A\ get\ method\ -\ Latitude\ of\ the\ position.\r\n\ \r\n\ @return\ The\ current\ value\ of\ the\ position's\ latitude.\r\n
+comment5.params=
+comment5.target=double\ getlon()
+comment5.text=\r\n\ A\ get\ method\ -\ Longitude\ of\ the\ position.\r\n\ \r\n\ @return\ The\ current\ value\ of\ the\ position's\ longitude.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ A\ toString\ method-\ returns\ a\ string\ representation\ of\ the\ LatLong's\ position.\r\n\ \r\n\ @return\ A\ string\ representation\ of\ the\ LatLong's\ position\ in\ the\ UK\ grid\ system.\ i.e.\ in\ the\ form\ 1234E\ 5678N\r\n
+numComments=7
